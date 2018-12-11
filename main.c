@@ -13,7 +13,8 @@ void printRandoms(int lower, int upper,
     for (i = 0; i < count; i++) {
         int num = (rand() %
                    (upper - lower + 1)) + lower;
-        printf("%d ", num);
+        printf("%d\n", num);
+
     }
 }
 
@@ -27,6 +28,7 @@ int main()
     srand(time(0));
 
     printRandoms(lower, upper, count);
+    printRandoms (lower, upper, count);
 
     return 0;
 } 
