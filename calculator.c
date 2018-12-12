@@ -1,21 +1,27 @@
 #include <stdio.h>
 
- int main(void){
-    char operator;
-    float secondNumber;
+ int main(void) {
+     char operator;
+     float secondNumber, firstNumber;
 
-    printf("Enter an operator (+, -, *, /): ");
-    scanf("%c", &operator);
+     printf("Enter an operator (+, -, *, /): ");
+     scanf("%c", &operator);
 
-    printf("Enter two operands: ");
-    scanf("%f %f",&firstNumber, &secondNumber);
-     switch(operator) {
+     printf("Enter two operands: ");
+     scanf("%f %f", &firstNumber, &secondNumber);
+     switch (operator) {
          case '+':
              printf("%.1f + %.1f = %.1f", firstNumber, secondNumber, firstNumber + secondNumber);
              break;
 
          case '-':
-             printf("%.1f - %.1f = %.1f", firstNumber, secondNumber, firstNumber - secondNumber)
+             printf("%.1f - %.1f = %.1f", firstNumber, secondNumber, firstNumber - secondNumber);
              break;
+
+         case '*':
+             printf("%.1f * %.1f = %.1f", firstNumber, secondNumber, firstNumber * secondNumber);
+             break;
+
+
      }
-}
+ }
