@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void){
+ main(void){
     char operator;
     float firstNumber,secondNumber;
 
