@@ -27,7 +27,7 @@
              break;
 
              // operator doesn't match any case constant (+, -, *, /)
-         default
+         default:
              printf("Error! operator is not correct");
      }
 
