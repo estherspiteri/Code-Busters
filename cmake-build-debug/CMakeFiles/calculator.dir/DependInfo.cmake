@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Owner/Desktop/uni/collaborative project/assignment3/Code-Busters/main.c" "C:/Users/Owner/Desktop/uni/collaborative project/assignment3/Code-Busters/cmake-build-debug/CMakeFiles/assignment3.dir/main.c.obj"
+  "C:/Users/Owner/Desktop/uni/collaborative project/assignment3/Code-Busters/calculator.c" "C:/Users/Owner/Desktop/uni/collaborative project/assignment3/Code-Busters/cmake-build-debug/CMakeFiles/calculator.dir/calculator.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
