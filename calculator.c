@@ -2,7 +2,7 @@
 
  int main(void){
     char operator;
-    float firstNumber,secondNumber;
+    float secondNumber;
 
     printf("Enter an operator (+, -, *, /): ");
     scanf("%c", &operator);
