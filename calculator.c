@@ -15,7 +15,7 @@
              break;
 
          case '-':
-             printf("%.1f - %.1f = %.1f", firstNumber, secondNumber, firstNumber - secondNumber);
+             printf("%.1f - %.1f = %.1f", firstNumber, secondNumber, firstNumber - secondNumber)
              break;
      }
 }
