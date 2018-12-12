@@ -8,5 +8,5 @@ int main(void){
     scanf("%c", &operator);
 
     printf("Enter two operands: ");
-    scanf("%f %f",&firstNumber, &secondNumber);
+    scanf("%f %f",&firstNumber, &secondNumber)
 }
