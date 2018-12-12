@@ -22,6 +22,14 @@
              printf("%.1f * %.1f = %.1f", firstNumber, secondNumber, firstNumber * secondNumber);
              break;
 
+         case '/':
+             printf("%.1f / %.1f = %.1f",firstNumber, secondNumber, firstNumber / secondNumber);
+             break;
 
+             // operator doesn't match any case constant (+, -, *, /)
+         default
+             printf("Error! operator is not correct");
      }
+
+     return 0;
  }
