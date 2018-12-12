@@ -1,6 +1,6 @@
 #include <stdio.h>
 
- main(void){
+ int main(void){
     char operator;
     float firstNumber,secondNumber;
 
@@ -8,5 +8,14 @@
     scanf("%c", &operator);
 
     printf("Enter two operands: ");
-    scanf("%f %f",&firstNumber, &secondNumber)
+    scanf("%f %f",&firstNumber, &secondNumber);
+     switch(operator) {
+         case '+':
+             printf("%.1f + %.1f = %.1f", firstNumber, secondNumber, firstNumber + secondNumber);
+             break;
+
+         case '-':
+             printf("%.1f - %.1f = %.1f", firstNumber, secondNumber, firstNumber - secondNumber);
+             break;
+     }
 }
